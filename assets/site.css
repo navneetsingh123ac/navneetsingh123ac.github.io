@@ -109,6 +109,7 @@ h3 { font-size: clamp(20px, 2vw, 24px); }
 
 /* Games grid */
 .games { display: grid; grid-template-columns: 1.6fr 1fr; gap: 20px; }
+.games--3 { grid-template-columns: repeat(3, 1fr); }
 .card { position: relative; display: flex; flex-direction: column; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); overflow: hidden; text-decoration: none; transition: border-color .25s, transform .35s var(--ease); }
 a.card:hover { border-color: var(--line-strong); transform: translateY(-4px); }
 .card__media { aspect-ratio: 16 / 9; overflow: hidden; background: #000; }
